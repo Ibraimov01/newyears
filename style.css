@@ -2,19 +2,19 @@
 	font-family: 'Campanella';
 	src: url('./fonts/campanella.eot'); /* IE 9 Compatibility Mode */
 	src: url('./fonts/campanella.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('./fonts/campanella.woff2') format('woff2'), /* Super Modern Browsers */
-		url('./fonts/campanella.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('./fonts/campanella.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('./fonts/campanella.svg#campanella') format('svg'); /* Chrome < 4, Legacy iOS */
+	url('./fonts/campanella.woff2') format('woff2'), /* Super Modern Browsers */
+	url('./fonts/campanella.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+	url('./fonts/campanella.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('./fonts/campanella.svg#campanella') format('svg'); /* Chrome < 4, Legacy iOS */
 }
 @font-face {
 	font-family: 'Gilroy';
 	src: url('./fonts/gilroy-light.eot.eot'); /* IE 9 Compatibility Mode */
 	src: url('./fonts/gilroy-light.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('./fonts/gilroy-light.woff2') format('woff2'), /* Super Modern Browsers */
-		url('./fonts/gilroy-light.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('./fonts/gilroy-light.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('./fonts/gilroy-light.svg#gilroy-light') format('svg'); /* Chrome < 4, Legacy iOS */
+	url('./fonts/gilroy-light.woff2') format('woff2'), /* Super Modern Browsers */
+	url('./fonts/gilroy-light.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+	url('./fonts/gilroy-light.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('./fonts/gilroy-light.svg#gilroy-light') format('svg'); /* Chrome < 4, Legacy iOS */
 }
 body{
 	background-color: #1A5B35;
@@ -33,10 +33,7 @@ body{
 	bottom: 0;
 	left: 0;
 }
-.melody{
-  position: absolute;
-  left: 1200px;
-}
+
 .music{
 	position: absolute;
 	left: 14px;
@@ -67,10 +64,10 @@ body{
 
 .congrats{
 
-font-family: Gilroy;
-color: black;
-font-size: 18px;
-line-height: 22px;
+	font-family: Gilroy;
+	color: white;
+	font-size: 18px;
+	line-height: 22px;
 }
 .sign{
 	display: flex;
@@ -78,10 +75,10 @@ line-height: 22px;
 	align-items: center;
 }
 .sign span{
-font-family: Gilroy;
-color: black;
-font-size: 22px;
-line-height: 22px;
+	font-family: Gilroy;
+	color: white;
+	font-size: 22px;
+	line-height: 22px;
 }
 .logo{
 	margin-top: 70px;
@@ -91,32 +88,42 @@ line-height: 22px;
 	.right-top{
 		display: none;
 	}
-    .left-bottom{
-	    display: none;
-    }
-    .title{
-	font-size: 52px;
-	line-height: 83px;
-    }
-    .congrats{
-	font-size: 16px;
-    }
+	.left-bottom{
+		display: none;
+	}
+	.title{
+		font-size: 60px;
+		line-height: 83px;
+		color: white;
+	}
+	.congrats{
+		font-size: 18px;
+	}
 	
-    .content{ 
-    margin-top: 96px;
-    color: black;
-    }
-    .logo{
-	margin-top: 20px;
-    }
-    .music{
-	top: 72px;
-	left: 700px;
-    }
-    .sign{
-	font-size: 16px;
-	line-height: 19px;
-    }
+	.content{ 
+		margin-top: 96px;
+		color: black;
+	}
+	.logo{
+		margin-top: 20px;
+	}
+	.music{
+		top: 72px;
+		left: 700px;
+	}
+	.sign{
+		font-size: 18px;
+		line-height: 19px;
+		color: white;
+	} 
+	.sign span{
+		font-size: 22px ;
+
+	}
+	span{
+		font-size: 22px ;
+		color: white;
+	}
 }
 
 @media print{
@@ -126,18 +133,18 @@ line-height: 22px;
 	.right-top{
 		display: none;
 	}
-    .left-bottom{
-	    display: none;
-    }
-    .music{
-    	display: none;
-    }
-    .melody{
-    	display: none;
-    }
-    .vector{
-    	display: none;
-    }
+	.left-bottom{
+		display: none;
+	}
+	.music{
+		display: none;
+	}
+	.melody{
+		display: none;
+	}
+	.vector{
+		display: none;
+	}
 
 }
 
